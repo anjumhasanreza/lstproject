@@ -45,3 +45,15 @@ use App\Http\Controllers\WebsiteHomesController;
 Route::get('/home', function () {
     return view('frontend.website.home.index');
 });
+
+
+
+use App\Http\Controllers\InventoryManagementProjectsController;
+Route::get('/project', function () {
+    return view('frontend.inventoryManagement.projects.index');
+});
+
+
+Route::get('/project', function () {
+    return view('frontend.inventoryManagement.projects.create');
+});
